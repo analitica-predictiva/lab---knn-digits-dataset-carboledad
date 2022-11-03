@@ -20,13 +20,13 @@ def pregunta_01():
     digits = datasets.load_digits(n_class=10,return_X_y=False,)
 
     # Imprima los nombres de la variable target del dataset
-    #print(digits.target_names)
+    print(digits.target_names)
 
     # Imprima las dimensinoes de matriz de datos
-    #print(digits.data.shape)
+    print(digits.data.shape)
 
     # Imprima las dimensiones del vector de salida
-    #print(digits.target.shape)
+    print(digits.target.shape)
 
 
 def pregunta_02():
